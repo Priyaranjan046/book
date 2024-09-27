@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book </title>
+    <style>
+      
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: grey;
+    color:cornsilk;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page.reverse {
+    flex-direction: row-reverse;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="book">
+        <div class="page">
+            <div class="content text">
+                <h1>Chapter 1: The Beginning</h1>
+                <p>
+                    Once upon a time, in a land far, far away, there was a kingdom
+                    nestled between the mountains and the sea. Its people were known
+                    for their courage, wisdom, and love for adventure. But one day,
+                    a mysterious stranger arrived...
+                </p>
+            </div>
+            <div class="content image">
+                <img src="C:\Users\Priyaranjan Nayak\Downloads\WhatsApp Image 2024-09-17 at 2.14.30 PM.jpeg" alt="Image for Chapter 1">
+            </div>
+        </div>
+
+        <div class="page reverse">
+            <div class="content image">
+                <img src="C:\Users\Priyaranjan Nayak\Downloads\WhatsApp Image 2024-09-17 at 2.16.53 PM.jpeg" alt="Image for Chapter 2" >
+            </div>
+            <div class="content text">
+                <h1>Chapter 2: The Journey</h1>
+                <p>
+                    The young hero set off on a journey across the dangerous mountains.
+                    Every step brought new challenges, from treacherous paths to wild
+                    beasts. But with each trial, the hero grew stronger, learning the
+                    secrets of the land.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
